@@ -12,5 +12,82 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:text="My Nanodegree Android Apps"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/button_PopMovies"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:background="@color/colorButtonBackground"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:text="POPULAR MOVIES"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_Stock"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:background="@color/colorButtonBackground"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:text="STOCK HAWK"
+        android:layout_below="@+id/button_PopMovies"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/button_Bigger"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:background="@color/colorButtonBackground"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:text="BUILD IT BIGGER"
+        android:layout_below="@+id/button_Stock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/button_Material"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:background="@color/colorButtonBackground"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:layout_below="@+id/button_Bigger"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/button_Ubiquitous"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:background="@color/colorButtonBackground"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:text="GO UBIQUITOUS"
+        android:layout_below="@+id/button_Material"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/button_Capstone"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:background="@color/colorButtonBackground"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:text="CAPSTONE"
+        android:layout_below="@+id/button_Ubiquitous"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
 </RelativeLayout>
